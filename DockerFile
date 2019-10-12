@@ -1,0 +1,4 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:2.1
+WORKDIR /app
+COPY ./numeric-operator ./
+ENTRYPOINT  ["dotnet", "run", "."]

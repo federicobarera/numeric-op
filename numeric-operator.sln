@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericOperator", "numeric-operator\NumericOperator.csproj", "{3D89CEDB-5E64-4552-A86B-59A569827535}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stubs", "stubs", "{F2877A97-F01B-4C24-92BC-03E403931A6E}"
+	ProjectSection(SolutionItems) = preProject
+		stubs\example1.txt = stubs\example1.txt
+		stubs\example2.txt = stubs\example2.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericOperator.UnitTests", "numeric-operator-unit\NumericOperator.UnitTests.csproj", "{82309C2C-9C7F-4776-A620-0C6B12F1157D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D89CEDB-5E64-4552-A86B-59A569827535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D89CEDB-5E64-4552-A86B-59A569827535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D89CEDB-5E64-4552-A86B-59A569827535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D89CEDB-5E64-4552-A86B-59A569827535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82309C2C-9C7F-4776-A620-0C6B12F1157D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82309C2C-9C7F-4776-A620-0C6B12F1157D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82309C2C-9C7F-4776-A620-0C6B12F1157D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82309C2C-9C7F-4776-A620-0C6B12F1157D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13E185DC-EDEC-4F80-847E-609B819AC38F}
+	EndGlobalSection
+EndGlobal
